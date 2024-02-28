@@ -1,0 +1,27 @@
+*{
+    background-color: black;
+
+}
+.box{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    gap: 5px;
+    margin: 100px;
+    padding: 30px;
+}
+.box img{
+    width: 20%;
+    height: 150%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all ease-out 0.5s;
+    cursor: pointer;
+}
+.box img:hover{
+    width: 100%;
+}
+.box name{
+    color: aliceblue;
+}
